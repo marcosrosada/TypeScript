@@ -1,3 +1,5 @@
+console.log("Rest Parameters Operator");
+
 let displayColors = (message, ...colors) => {
     console.log(message);
 
@@ -24,3 +26,10 @@ function sum(...numbers) {
 }
 
 sum(1, 2, 3, 4, 5) // 15
+
+
+console.log("");
+console.log("Spread Operator");
+
+let colorArray = ['Yellow', 'Orange', 'Indigo'];
+displayColors(message, ...colorArray);
