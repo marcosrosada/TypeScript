@@ -4,4 +4,4 @@ let Person = {
     name: 'Chi'
 };
 
-export { firstName, lastName, Person}
+export { firstName, lastName, Person }
