@@ -1,4 +1,4 @@
-var anonymousFunction = function (message:string, name:string) {
+var anonymousFunction = function (message, name) {
     return message + " - " + name;
 }
 
@@ -6,6 +6,6 @@ console.log("Anonymous Function: ", anonymousFunction("Hello World!", "Marcos Ro
 
 
 
-const arrowFunction = (message:string, name:string) => message + " - " + name
+const arrowFunction = (message, name) => message + " - " + name
 
 console.log("Arrow Function: ", arrowFunction("Hello World!", "Marcos Rosada"));
