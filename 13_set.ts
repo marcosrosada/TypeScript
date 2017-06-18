@@ -15,6 +15,14 @@ console.log('New Set Size:', newSet.size);
 
 newSet.delete(2);
 console.log('New Set Size:', newSet.size);
-
-
 console.log(newSet.has(2));
+
+console.log('');
+
+
+let myWeakSet = new WeakSet();
+let key = {};
+myWeakSet.add(key);
+console.log('My WeakSet has key:', myWeakSet.has(key));
+key = null;
+console.log('My WeakSet has key:', myWeakSet.has(key));
