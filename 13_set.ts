@@ -13,5 +13,8 @@ console.log('My Set Size:', mySet.size);
 let newSet = new Set([1, 2, 3, 4, 4, 4]);
 console.log('New Set Size:', newSet.size);
 
-newSet.delete(1);
+newSet.delete(2);
 console.log('New Set Size:', newSet.size);
+
+
+console.log(newSet.has(2));
