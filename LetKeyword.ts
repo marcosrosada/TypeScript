@@ -1,7 +1,7 @@
-let message = "Hi";
+let message:string = "Hi";
 
 {
-    let message = "Bye";
+    let message:string = "Bye";
     console.log("Local:", message ); // Bye
 }
 
