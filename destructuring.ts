@@ -18,11 +18,11 @@ console.log('\nRest operator');
 
 console.log('\nObject destructing');
 {
-    const person = { name: 'Marcos', last: 'Rosada' }//, age: 31 }
+    const person = { firstName: 'Marcos', lastName: 'Rosada' }//, age: 31 }
 
-    let {name, last, age=31} = person
+    let {firstName, lastName: last, age=31} = person
 
-    console.log(name) // 'Marcos'
+    console.log(firstName) // 'Marcos'
     console.log(last) // 'Matheus'
     console.log(age) // 26
 }
