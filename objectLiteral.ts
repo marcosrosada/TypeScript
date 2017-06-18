@@ -1,11 +1,16 @@
 let firstName = "Chandler";
 let lastName = "Bings";
-
+let ln = 'last name';
 
 let person = {
     firstName,
-    lastName
+    lastName,
+    'first name': 'Joe',
+    [ln]: 'Tribbiani'
 };
+
+console.log(person['first name'] + ' ' + person[ln]);
+console.log("");
 
 let createPerson = (firstName, lastName, age) => {
     let fullName = firstName + ' ' + lastName;
