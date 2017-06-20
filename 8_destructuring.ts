@@ -23,6 +23,6 @@ console.log('\nObject destructing');
     let {firstName, lastName: last, age=31} = person
 
     console.log(firstName) // 'Marcos'
-    console.log(last) // 'Matheus'
+    console.log(last) // 'Rosada'
     console.log(age) // 26
 }
